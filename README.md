@@ -70,24 +70,6 @@ Agendamento com regras de validação (horário da clínica, disponibilidade do 
 
 Cancelamento com antecedência mínima e motivo obrigatório
 
-📂 Estrutura do Projeto
-
-api/
-└── src/main/java/med/voll/api/
-    ├── controller/      # REST controllers
-    ├── domain/          # Regras de negócio
-    │   ├── consulta/    # Entidade, DTOs, repositório, validadores
-    │   ├── endereco/    # Mapeamento e DTO de endereços
-    │   ├── medico/      # Entidade, DTOs, repositório
-    │   ├── paciente/    # Entidade, DTOs, repositório
-    │   └── usuario/     # Entidade, DTOs, repositório
-    └── infra/           # Infraestrutura e configurações
-        ├── exception/   # Tratamento global de exceções
-        ├── security/    # Configuração JWT e Spring Security
-        └── springdoc/   # Configuração Swagger/OpenAPI
-
-└── src/main/resources/
-    └── db/migration/   # Scripts Flyway
 
 
 🔹 Exemplos de Endpoints
